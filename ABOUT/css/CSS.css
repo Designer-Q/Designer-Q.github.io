@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	list-style: none;
+}
+
+.navBJ{
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+}
+
+.navBJ .nav{
+	width: 1760px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.navBJ .nav li a:hover{
+	color: aqua;
+	font-weight: bold;
+}
+
+.navBJ .nav li{
+	width: auto;
+	float: left;
+	line-height: 50px;
+	padding: 0 29px;
+	color: #FFFFFF;
+}
+
+.navBJ .nav li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+
+.navBJ .nav li:first-child{
+	margin-right: 1195px;
+}
+
+.banner{
+	width: 100%;
+	height: 744px;
+}
+
+.banner .ck-slide ul.ck-slide-wrapper il a{
+	display: block;
+	margin: 0 auto;
+}
+
+.aboutme{
+	width: 1162px;
+	height: 445px;
+	margin: 0 auto;
+	border-bottom: 6px solid #363636;
+	padding-top: 50px;
+	position: relative;
+}
+
+.tittle{
+	width: 631px;
+	text-align: center;
+	font-size: 32px;
+	font-family: "microsoft yahei";
+	font-weight: bold;
+	margin: 0 auto;
+	background-image: url("image/line.png");
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+}
+
+.aboutme img{
+	width: 362px;
+	height: 343px;
+	position: absolute;
+	bottom: 0;
+}
+
+.introduction{
+	width: 560px;
+	height: 103px;
+	background-color:#EEEEEE;
+	position: absolute;
+	bottom:0;
+	margin-left: 362px;
+	margin-top: auto;
+	text-align:left;
+	padding: 120px;
+}
+
+.show{
+	width:1760px;
+	height: 565px;
+	margin: 74px auto 0;
+	padding-top: 37px;
+}
+
+.video{
+	width:1726.5px;
+	height: 340px;
+	margin: 73px auto 0;
+}
+
+.video2{
+	width:1726.5px;
+	height: 680px;
+	margin: 73px auto 0;
+}
+
+.show2{
+	width:1760px;
+	height: 905px;
+	margin: 74px auto 0;
+	padding-top: 37px;
+}
+
+.show3{
+	width:1760px;
+	height: 565px;
+	margin: 74px auto 0;
+	padding-top: 37px;
+}
+
+.video3{
+	width:1726.5px;
+	height: 340px;
+	margin: 73px auto 0;
+}
