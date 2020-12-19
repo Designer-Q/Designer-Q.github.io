@@ -1,16 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 * {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	font-size: 18px;
 	list-style: none;
 }
 
 .navBJ{
-	width: 100%;
+	width: 1903px;
 	height: 50px;
 	background-color: #000000;
+	margin: 0 auto;
 }
 
 .navBJ .nav{
@@ -43,7 +44,7 @@
 }
 
 .banner{
-	width: 100%;
+	width: 1903px;
 	height: 744px;
 }
 
@@ -93,7 +94,7 @@
 }
 
 .show{
-	width:1760px;
+	width:1903px;
 	height: 565px;
 	margin: 74px auto 0;
 	padding-top: 37px;
@@ -112,14 +113,14 @@
 }
 
 .show2{
-	width:1760px;
+	width:1903px;
 	height: 905px;
 	margin: 74px auto 0;
 	padding-top: 37px;
 }
 
 .show3{
-	width:1760px;
+	width:1903px;
 	height: 565px;
 	margin: 74px auto 0;
 	padding-top: 37px;
