@@ -53,44 +53,41 @@
 	margin: 0 auto;
 }
 
-.aboutme{
-	width: 1162px;
-	height: 445px;
-	margin: 0 auto;
-	border-bottom: 6px solid #363636;
-	padding-top: 50px;
-	position: relative;
-}
-
 .tittle{
 	width: 631px;
 	text-align: center;
 	font-size: 32px;
 	font-family: "microsoft yahei";
 	font-weight: bold;
-	margin: 0 auto;
-	background-image: url("image/line.png");
+	margin: 80px auto;
+	background-image: url("../../image/line.png");
 	background-repeat: no-repeat;
 	background-position: 0 50%;
 }
 
+.aboutme{
+	width: 1162px;
+	height: 343px;
+	margin: 80px auto 0;
+	border-bottom: 6px solid #363636;
+	background-color:#EEEEEE;
+}
+
+
 .aboutme img{
 	width: 362px;
 	height: 343px;
-	position: absolute;
-	bottom: 0;
 }
-
+.img{
+	width: 363px;
+	height: 343px;
+	margin-left: 0;
+}
 .introduction{
-	width: 560px;
-	height: 103px;
-	background-color:#EEEEEE;
-	position: absolute;
-	bottom:0;
-	margin-left: 362px;
-	margin-top: auto;
-	text-align:left;
-	padding: 120px;
+	width: 600px;
+	height: 200px;
+	margin-left: 470px;
+	margin-top: -200px;
 }
 
 .show{
