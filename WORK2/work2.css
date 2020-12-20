@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: -5px auto;
+	padding: 0;
+	font-size: 18px;
+	list-style: none;
+}
+
+body{
+	width: 1920px;
+	height: 2000px;
+	margin: 0 auto;
+	padding: 0;
+	background-image: url( "../image/backg3.png");
+}
+
+.navBJ{
+	width: 1920px;
+	height: 50px;
+	background-color:#0f0f0f;
+	margin: 0 auto;
+}
+
+.navBJ .nav{
+	width: 1760px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.navBJ .nav li a:hover{
+	color: aqua;
+	font-weight: bold;
+}
+
+.navBJ .nav li{
+	width: auto;
+	float: left;
+	line-height: 50px;
+	padding: 0 29px;
+	color: #FFFFFF;
+}
+
+.navBJ .nav li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+
+.navBJ .nav li:first-child{
+	margin-right: 1195px;
+}
+h1,h2,h3,ul,il,span,a
+{
+	margin: 0;
+   	padding: 0;
+   	border: 0;
+   	outline: 0;
+   	font-size: 100%;
+   	vertical-align: baseline;
+   	background: transparent;
+}
+#header {
+	widows: 1920px;
+  	 height: 800px;
+  	 background: #161415 url( "../image/work2.png") no-repeat top center;
+  	 text-align: center;
+}
+#header .banner {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 200px auto;
+   width: 85%;
+   padding-bottom: 30px;
+}
+
+#header .banner-text h1 {
+   font-size: 90px;
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+}
+
+#header .banner-text h3 {
+   	font-size: 18px;
+	font-weight: 100px;
+   	color: #FFFFFF;
+    margin: 0 auto;
+   	width: 70%;
+	line-height:30px;
+}
+
+#header .banner-text hr {
+   width: 60%;
+   margin: 18px auto 24px auto;
+   border-color: #2F2D2E;
+   border-color: rgba(150, 150, 150, .1);
+}
+
+#header .social {
+   margin: 24px 0;
+   padding: 0;
+}
+#header .social li {
+   display: inline-block;
+   margin: 0 -120px;
+   padding: 0;
+}
+#header .social li a:hover { color: #11ABB0; }
+
+.about{
+	width: 1920px;
+	margin: 0 auto;
+}
+
+.text{
+	width: 800px;
+	text-align: inherit;
+	margin-right: 400px;
+	margin-top: 100px;
+	color: aliceblue;
+}
+.text h{
+	line-height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.img{
+	width: 300px;
+	height: 300px;
+	display: block;
+	margin-left: 400px;
+	margin-top: -60px;
+	float: left;
+}
+.video{
+	width: 1920px;
+	margin-top: 128px;
+	height: 1080px;
+	background-image: url( "../image/design.gif");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}

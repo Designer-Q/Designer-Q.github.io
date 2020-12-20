@@ -90,7 +90,15 @@
 	margin-left: 470px;
 	margin-top: -200px;
 }
-
+.introduction p2{
+	float: right;
+	font-size: 10px;
+	color:rgba(0,0,0,1.00);
+}
+.introduction p2:hover{
+	font-weight: bold;
+	color:rgba(244,174,0,1.00);
+}
 .show{
 	width:1903px;
 	height: 565px;
